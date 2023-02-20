@@ -121,6 +121,6 @@ particlesJS({
         foto=1;
       }
       slides[foto-1].style.display="block";
-      setTimeout(mostrarSlides,4000);
+      setTimeout(mostrarSlides,1000);
     }
   };
