@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+:root{
+    --colorsection:#000000;
+}
+body{
+    background-color: rgba(255, 255, 255, 0);
+    font-family:'Alice';
+}
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+#Gustariahacer{
+    background-color:var(--colorsection);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+    padding: 3%;
+    color: #fff;
+    margin: 7% 20% 0%; 
+    z-index: 2;
+}
+.quemegustariahacer{
+    padding: 3%;
+}
+.quemegustariahacer h1{
+    font-size: 320%;
+    padding: 5%;
+    color: blue;
+}
+.quemegustariahacer p{
+    font-size: 130%;
+    text-align: left;
+    line-height: 40px;
+}
+.carrusel2 h1{
+    font-size: 220%;
+    padding: 10%;
+    color: blue;
+}
+.carrusel2{
+    align-self: center;
+    max-width: 300px;
+}
+.mislides{
+    display: none;
+    width: 100%;
+    height: auto;
+}

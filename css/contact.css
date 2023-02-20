@@ -1,0 +1,95 @@
+:root{
+    --colorsection:#f0060600;
+}
+body{
+    background-color: rgba(255, 255, 255, 0);
+    font-family:'Alice';
+}
+#contact{
+    background-color:var(--colorsection);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 3%;
+    margin: 7% 20% 0%; 
+    z-index: 2;
+}
+#contact h1{
+    font-size: 300%;
+    width: 100%;
+}
+.cont{
+    display: flex;
+    float: left;
+}
+.cont  input ,h2{
+    font-size: 160%;
+    border-color: blue;
+    padding: 2%;
+}
+.nombre, .apellido{
+    margin:0% 4% 0%;
+}
+
+.cont2{
+    display: flex;
+    float: left;
+}
+.cont2 input,h2{
+    font-size: 160%;
+    border-color: blue;
+    padding: 2%;
+}
+.email, .empresa{
+    margin:0% 4% 0% ;
+}
+.motivo{
+    margin:0% 4% 0% ;
+}
+.motivo input{
+    width: 96%;
+    border-color: blue;
+    font-size: 160%;
+    padding: 1%;
+}
+.mensaje{
+    margin:0% 4% 0% ;
+}
+textarea{
+    font-size: 160%;
+    border-color: blue;
+}
+.btn{
+    background-color: blue;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 140%;
+    color: #fff;
+    border: 0px;
+    width: 100%;
+    height: 50px;
+    margin-right: 100px;
+    border-radius: 5px;    
+    cursor: pointer;
+    transition: .5s ease all;
+    overflow: hidden;
+    z-index: 3;
+}
+.btn::after{
+    content: "";
+    width: 100%;
+    height: 180%;
+    background-color: black;
+    position: absolute;
+    z-index: -1;
+    top: -100px;
+    left: 0;
+    transition: .5s ease-in-out all;
+    border-radius: 0px 0px 200% 200%;
+}
+.btn:hover:after{
+    top: 0;
+}

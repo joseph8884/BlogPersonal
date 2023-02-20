@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Mainstyle.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1250436908125061120/_OsvNasC_400x400.jpg" type="image/jpg">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Blog personal</title>
+</head>
+<body>
+    <header class="Menu">
+        <nav>
+            <ul>
+                <a href="./index.html"><img class="icon sabana" src="https://pbs.twimg.com/profile_images/1250436908125061120/_OsvNasC_400x400.jpg" ></a>
+                <li class="botones"><a class="Conoceme Nav" href="./conoceme.html">Conoceme</a></li>
+                <li class="botones"><a class="Que_estoy_haciendo Nav" href="./queEstoyHaciendo.html">Que estoy haciendo</a></li>
+                <li class="botones"><a class="Que_me_gustaria_hacer Nav" href="./quemeGustariahacer.html">Que me gustaria hacer</a></li>
+                <li class="botones"><a class="Contactame Nav" href="./contactame.html">Contactame</a></li>
+            </ul>   
+        </nav>
+    </header>
+    <section id="contact">
+        <h1>Dime lo que piensas</h1>
+        <div class="cont">
+        <div class="nombre">
+            <h2>Nombre</h2>
+            <input type="text" value placeholder="Nombre">
+        </div>
+        <div class="apellido">
+            <h2>Apellido</h2>
+            <input type="text" value="" placeholder="Apellido">
+        </div>
+        </div>
+        <div class="cont2">
+        <div class="email">
+            <h2>Email</h2>
+            <input type="email" value="" placeholder="Email">
+        </div>
+        <div class="empresa">
+            <h2>Empresa</h2>
+            <input type="text" value="" placeholder="Empresa">
+        </div>
+        </div>
+        <div class="motivo">
+            <h2>Motivo</h2>
+            <input type="text" value="" placeholder="Motivo">
+        </div>
+        <div class="mensaje">
+            <h2>Mensaje</h2>
+            <textarea placeholder="Escribe tu mensaje" name="mensaje" id="" cols="60%" rows="10"></textarea>
+        </div>
+        <button onclick="agradecer()" class="btn">Send</button>  
+        <script>
+            function agradecer(){
+                alert("Gracias por enviar tus datos, nos comunicaremos pronto")
+            }
+        </script>
+    </section>   
+    
+    <footer>
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">Héctor Jose Guzman Montaño</h2>
+                <p>
+                    Universidad de la Sabana - Colombia <br>
+                    cel +57 3052951490 <br>
+                    hectorgumo@unisabana.edu.co <br>
+                </p>
+            </div>
+            <div class="social-media">
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-facebook-circle'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-instagram-alt' ></i>
+                </a>
+            </div>
+        </div>
+        
+    </footer>
+</body>
+</html>

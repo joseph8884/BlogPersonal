@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+:root{
+    --colorMenu:black;
+    --colorHoovermenu: blue;
+    --colorFooter:blue;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Alice';
+}
+
+.Menu{
+    top: 0px;
+    background-color: var(--colorMenu);
+    display: flex;    
+    position:fixed;
+    width: 100%;
+    z-index: 1000;
+    justify-content: center;
+}
+.sabana{
+    float: left;
+    width: 9%;
+    height: auto;
+}
+
+nav{
+    float: left;
+}
+nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li{
+    height: 100%;
+    float: left;
+    font-size: 130%;
+    width: 20%;
+}
+a{
+    cursor: pointer;
+}
+nav ul li a{
+    text-align: center;
+    display:block;
+    padding: 10%;
+    color: aliceblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav ul .botones:hover{
+    background-color: var(--colorHoovermenu);
+}
+/**pagina principal**/
+.Fraseprincipal{
+    background-image:linear-gradient(to top,#000000af,#00000080), 
+    url(https://images.pexels.com/photos/4144179/pexels-photo-4144179.jpeg?auto=compress&cs=tinysrgb&w=600);
+    width: 100%;
+    min-height: 80vh;
+    color: #fff;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.Fraseprincipal img{
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    min-height: 10vh;
+}
+.Mensaje_Motivador h1{
+    margin: 10% 20% 0%;
+    font-size: 230%;
+    text-align: center
+}
+.Mensaje_Motivador h2{
+    margin-top: 8%;
+    text-align:center;
+    display: block;
+}
+/**Aspiraciones Futuras**/
+.Empresas {
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    font-size: 240%;
+}
+
+
+
+
+/** aboutme**/
+.Aboutme_principal{
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.621),#0000009e),
+    url(https://images.pexels.com/photos/207529/pexels-photo-207529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 100%;
+    min-height: 60vh;
+    color: aliceblue;
+    display: flex;
+    float: left;
+    padding: 0% 10%;
+    text-align: center;
+}
+.aboutme_principal{
+    float: left;
+}
+.immg_aboutme img{
+    z-index: 20;
+}
+.immg_aboutme{
+    display: flex;
+    padding: 3%;
+    margin-top: 5%;
+    width: 30%;
+    border-radius:  250% 250% 250% 250% ;
+    height: 10%;
+    z-index: 19;
+    background-color: rgb(255, 255, 255);
+}
+.contenido_aboutme{
+    padding: 3% 18% 0% 18%;
+    font-size: 140%;
+}
+.resumentitulo{
+    font-size: 200%;
+    color: rgb(69, 69, 252);
+}
+.resumenAboutme{
+    font-size: 120%;
+    line-height: 40px;
+}
+/**Carrusel**/
+#carrusel-caja{
+    max-width: 100%;
+    margin: 0;
+}
+.carrusel-elemento{
+    display: none;
+    width: 100%;
+    height: auto;
+}
+.imagenes{
+    width: 100%;
+}
+
+/** footer**/
+footer{
+    background-color: var(--colorFooter);
+    padding-bottom: 0.1px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0% 10%;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.contact-us{
+    width: 40%;
+    color: #ffffff;    
+}
+.brand{
+    line-height: 50px;
+    font-weight: 500;
+    font-size: 40px;
+}
+.brand+p{
+    line-height: 30px;
+    font-size: 120%;
+}
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+.social-media-icon:hover{
+    background-color: #fff;
+    color: var(--colorFooter);
+}
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}

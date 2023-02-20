@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Mainstyle.css">
+    <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1250436908125061120/_OsvNasC_400x400.jpg" type="image/jpg">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Blog personal</title>
+</head>
+<body>
+    <!--Menu de Navegación-->
+    <header class="Menu">
+        <nav>
+            <ul>
+                <a href="./index.html"><img class="icon sabana" src="https://pbs.twimg.com/profile_images/1250436908125061120/_OsvNasC_400x400.jpg" ></a>
+                <li class="botones"><a id="Conoceme Nav" href="./conoceme.html">Conoceme</a></li>
+                <li class="botones"><a id="Que_estoy_haciendo Nav" href="./queEstoyHaciendo.html">Que estoy haciendo</a></li>
+                <li class="botones"><a id="Que_me_gustaria_hacer Nav" href="./quemeGustariahacer.html">Que me gustaria hacer</a></li>
+                <li class="botones"><a id="Contactame Nav" href="./contactame.html">Contactame</a></li>
+            </ul>   
+        </nav>
+    </header>    
+    <!--Pagina principal "La que primero aparece al abrir la pagina"-->
+    <section class="Fraseprincipal">
+
+        <div class="Mensaje_Motivador">
+            <h1>"El único modo de hacer un gran trabajo es amar lo que haces" - Steve Jobs</h1>
+            <h2>Bienvenido al blog personal del Ing Jose Guzmán.</h2>
+        </div>
+    </section>
+    
+    <section class="Empresas futuras">
+        <h1 class="Trabajos">Aspirasiones</h1>
+        <table>
+            <tr>
+                <td>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABTVBMVEXtFRP////sAAD/9/ftDQnwQkT3n6D84OH2i4zvMzTtEA3/+vr7zMztCQT2mpv2kpPya23xUVTwR0j///r+8vLyV1n+7e30dXf91tf5xcXsABP94+T5vLzxOQD96Oj///juHx3vIgDuKCfvKQD4paTzTwDyQwD0XAD7jgDvPj32hYf5srPyX2H82tX6y8b80sr4sar1kIr6tp792sbvLxPwTDzyaF/1gWf5pYHyWlP7upD1dW/6n2P/9+r95tz1dDn6v6v+79z0eFj/6s/5mWrwQzD3jFX+wnr9xYf+2ZX1awD/5qL//+j9sFj+w239yWn/6rb/xBD+3LH/y1D/+9f/45H/9bf5ii7/1mf6lUr2dyL2fw7/3qf7sm36qVf0eWv3no3zYUT4h0X8yLHyUiX1bDT7nwT/+cn6mDz7tlD9txX+szj3hwD9xm/8t2648PIOAAAOwUlEQVR4nOWd+YPaNhbHjRADyJirgMEwlGtmgiGTmSTTJpkcnbZJ22y6TbvpmfRKeu1uN///j6vDjA/JxmZswOL7Sw5jWx9Leu9Jsp+UjOxSNl2AxLUOwkY/f/3GjePj444l/Ncb168/fJhdw82TJVS7x72Tkz3z/O7Z49tD4NDw9uOzuz+fTk4+eHPrQZJFSJCw35lUzHluQME0iBSPENQY6tn56S83b72bVDmSIWz1Ts+bUwUD8GQ8KcV87/07t5IoShKE7dO7xZECtKVsLk78MEZnj+4l0GLjJVRL5+I2GYoS4uo8vB83ZHyE2VbJHACwEpxDABzde/jgndiKFRthq12ZXh2PygDDRx/EZ3piIVTbMx0BGAceEwSHd95cxFG0eAg7pzUYT/XZMsD+hzc/iqFwMRD2zqdAixePCQx//TgGxqsS9pqjOJunW3D4+PWLzRKWajCa34sqBMbfX2yMMFtqApAkHhMY37+4ivNYmTCb19fBRxkP712hP65KmC8P1sSnEMN69OZivYSNWTNu97CEcfxk1RhgJcL2+Wh9FWgJ/PbjxdoIK9NkDahYaPz7q/UQ5uswMQcYLDj8Yw2E6kRZewN1MB49j+w4IhJiF7GBBmrL2H8bdfwYjbBX22AFMsThk4+iVWMUQrW8fhPKCzz6LBJiBMK+qW3IxLilHbyNghiesDTfbBe0hcb3nyVA2JkmMghcTeD1n3ETqhO4RYAY8egf8RI29ralhS6EjsLam1CEjcq2AWK3cfRpuFA8DGHD3AInwck4+DQuwtZWAmLEw0/iIWzpq03SJy9jPwziUsLtBQyJuIywteFQO1gYcalFXUK4nUbGlnG41KIGE2Yr2w1ILeqSWgwmLG87IPGLn12BcLbNfXAh9DQ4gAsi7I22YrS0TPBpYBgeQFiqpwIQh+F/BQ2m/Am78+3vhJaGnwdYG1/CbfcTThn7//RH9CNUJ2mwMgsFjaX8CDvpsDILad/6rk75EPbr6WmjVOOf/OZRfQjPUwaIw7cvfNqpmHCWNkAS2zyPQNhNVydkMq6FJ1Sb6atCLPBlaMLyIEWOwpYhnmEUELbrWzU1Gl7aX6KXb3jCNAUzHh3+TzAc5gl76WyjROgHgT3lCPsbXyK8gsY/8aMMLyGORzddzCvIOPpqKWE3TQE3L3iNMzZeQj3NVUjn3rzBm4ewnW5AjPj3RTBhesb1ftr/IpCwhFLdC4mMl8+CCKspjWacGv4rgLA3Sn0V4kp8+sKfMHXjXqE8legk7BUlqEIcu337wodQTW/I7ZbbnDoIS7kUjuxFGn7/Qkio7klShYriWo6yCbvpnLsQyTXEsAk70gAq6OlzAWFDDlfB5Fz7viTMSwSoIMcg6pIwBQva4eUcCV8STiVxFUzjfz/wEkrVSF3DxAVhQTLCg1deQhlGFU5p/3nHTZj62QuvjJcP3ISyBN2XMg6/dhPWpLKkRNqXLsK8HCNDp4xr7zgJJ+ldq/CTcfSNk1CXrpHiUeJ3DsKWPAMnW/C/DsKOXCEbE/r2mU0oYTfEOvraJpQsZLO0/90lYasqJeH480vC1LxIGk3WlBshlGIynxf64ZsFYQrf8QolZmoU8nmvpISHn1mErZSvbPtq/5N3GWG+JsGqoUjsc2FM2JZvYME0/OtPRlhSJCVEL79hhBJN57tl0K9pFLGzgICXM2WLJjhOfiK8E/mxOKZAoouQzIJgWf4+UQERvZVdBuPoFSXMcs4C33eqV/bcKps1O60enJf3BDLrotRRoDZrT3KCAxoYNE3uQgWA5uTPqT8iLmCdK+DeBAcuzULFfmGGTSkqmYbHWSBN0dsZkVp7RevJgrIq/EWmzSdeAHoLH+hyLwQikJs1BJeoAjghfzb9LDwCg0JXcGIPP5rJnjmxT6QLNIo37kZKVcxHlK0wuwsqvimAyx67pdXZ5Uqed8dhcU94Pu4zsEz+4ufD4EDvi07sF7Wirhdmdfvdw/1PHxDCvuthoUGh5QtIHlQOBRNm9lyIaDBZPBwXOayVhGf38WA8kBAWJ+L2YyJU1Kt7k6K9lj3+8RkldC7fI6XAWk6rXXKrnWcX7pD+wQjz3p/QZ+Nu9bC6eGB555PUaqxmVe81dHJOACEcWYB9TwEnuHUN5uWqXrbvT9eClUzX6fC1KgVszfR60a3cvMIKNcOPgRKq+sjzE53WS8cxVEHFDqWjJ9r/D6c9eq1SZT51X4M0gABC3MRo68lPqjn3iWSaAleiaZr2hMWQvPiNCR1TGGhAy9KuKgAit7B5rs/oY8fGihFiq+L5SZ2c3nV0bK1Ar9ckzy1btRtLgVZEeap576ME1yGs0T7YafIFZOXP1R048NqfhDDvuBIwWYHEzggUKWJ7QchPDQAClLUnRWCRNgmd/n8mv6hEmKPNoaD4dLWAVkp7dano6y1drx4ii9BRTtDlOpJT2pQ2w7rmR6jVSd3YXR30WPPUivTEheeFOvlXzy/rmz8hKpI22gr72Rn620uo1WiB/GfegE7uMAO+dVhzEYIqrTrsCsGcVibz+2hAwLO+n3X4EwL6aEygQV6CCxkcIW1MQd9bwBypi7wfIQJl5wW0Iuk0KnETltNoU0+CRuT//edOAghJN8lWqiI1Bzzhy+dewhm16v6E7Ok3RgtCpAHNFtDmfccFEJox90IeL2DugWYwgDn6V9+7BBDSi6giZSqhCEn520Ezb7TQjeKCcDSfN23Ny9QSLz5JYeHaYgYBUhdKX7xincH07QsBhKJojUn0Vl4chJW8Q13qAlpW6AupWVJnlnWDzNgQfK0eP2FLtLhkvOT6IW2lAW+zW610cNkPpxPuXqZ1K0Sj8/5lijBAgwnSSeF05VZKn1JWIOHChMDSEHeYDbA0LIxu25YGooKbT61a6WxAkz5v3TF+o6F2qQ7QiBzqrGppGnquzkl4Md5bsIfbK/o2U1Bg3sC2pYh5BKv/tyaLvINo1GONUrdl0laMn/aAmiDfthJASG9WRry3ED4tJIhp2rQS/bIKWfFyDjq9BaiywcxsPq8N7DEyjY7UUY7rOY2qxjx+aeDzJIM8PjFejbBfhViEzriUeVQcWArrHLB4ueSJ2rQ55e6bA+AIrSlZBUCdG+XimGtKz5j4JJoMitrooXY93NdZVlzqHFsghXblbmEEgKcZ4Bh5TscJ2aY3LtWazABMina4NmMsCI1mnC3CTtGkI4RZDQrCE8QI694SELHYHg8NBlwBBS3VGlu4xoewSZtco1OZ13Mu1fQZvTjuBYo38gZ1WrlqbzEbA+asPUJicXpthwhZdmrF8HgQpNdyHtVHGiWsTr1HyMGBSdtEv2c2uWPczI41PvSM8XU2Ym308251rZHsrMgT4lEH8xolFhMjg7ZCa0A4dZi8GgtzgJbrMPPU6ua9GtDYL+MtAC1EBwzKbHqhwZ3Y4mZ2rDG+e54GKeJZkIUmxctZDGdcClkHsb5AZX6hbfUk5Gxlc9IQVB3AYs/nDiZgrVSopoYGfjMoHW5m25qn8Q6WQK7nM5GGO6iVvA1UVE/kjdjQkkyVITAn9Z0Vrp0DKw7AsKawpCV8fsXv/hPqn5rCqbJGjjNN1lwbl89Lw12n1eCihkarbS4yzYMKPt5wVz4OQ8nP1MpgVFLxnx3hIAwWO/hgtkcuMqq0ufs08JgK5jqisCWr5pmnBqBa4k5U+ShwMV8qmPMGoDg3C26Z1Zx2aaNhjRx292yEmuR3lcJ0Sg6aPsNUQH9lksaOgFLXPfeZ098U9YJINbuAU28BdT6qWcx5C9ctRNPtTv8MRfPui8l1xP3cKc0xZ4/4yXnf27sXDfgT+RZzuW4h/9qT/OuH8q8B96Vfx1e3Pv3jirp8F0P+92l24J0o+d9rk//dRPnfL92Bd4Tlf89b/nf1M7qEcZvrewsZO6Lnmxkpv3t610ko/7drO/D9ofzfkEr3HTD0fgcsW+BmHFymN5H1e/yXF15CyXIqDPmcCjuQF0OqZirMbSJ/fhqZPkoQ5xgKfNsrZfLJEyVRrq8Dca4v+fO17UDOPfnzJpI1+E2XLg4F5L6UY3o/MH+p/DlodyCPsPy5oNM/m7E0n7f8Odl3IK++/HsjyL+/xQ7sUbID+8ykd68gGHKvoPTu93QQdr+nHdizS/5911L5Hli0vfNSuA9E1P0Pd2APS/n3Id2BvWRTFdqstB/wDuzpnKLXTlfdl3sH9lYnjj8F1gY9FYaj4QjTsPRtuDaViUzIfde2dTIOuKmnSIRb7zMM53r2SoRbnhjT2P9kSQ0uJyQJJ7bW3GDAZcUPQZjpb23C9lCAIQgzrS3ti8ZhGMAwhFtqbpZb0fCEmUZl+1w/BlxmRSMQZhrlbUMMGi+tQoiHi3CrJlHBklAtOiEOw6dbhAheBwbbqxFmSnxq0g0JsQ98YyfM9E3fb+zXKu3gbcguGJUwky37pMxZq8CjsDYmOiHujBtfXDSGTz6KBBiRMJPXN9sZjf23fvOiMRFit6FssBrR0fNoFbgCIa7GujDP5BoEh39ELu0qhJlMZeqXeTRJofHvr5aXLR7CTPt8/UYV/PbjxSplXY0w05j5JOJNSsb4yVfhAu2YCHFvLA/WV40GOHpzsWJBVybMZNu6KIl+EgKH93xXlhIkxIyl5joYwfj+RWQXEQ8hVqcGkzWrCIy/v0L9XZ0Qx3HNUXLxOBw+fi16RWathJjxfOqzc8cVBYa/fnzF+ouHELfV0xqM23kYYP/DmzHwxUOYUdszHcXZWCE4vPPmIo6ixUSYIbtFVKbL9oYJKQMMH31wa0X/zisuQuw8WiVzcHVIAI7uPXxwFffgUXyERGrpnCT/W22lA0EIwOH9qOO/ZYqXkKh9erc4UkA0P4kAgKOzR/fixsskQYjV6p2eN6ckU+Ty2iTJIYe3z957/86tJIqSECFRvzOpmPPpYEjzYPKkCNEkmBju59NfbsZnWDglRkikdo97Jyd75vnds8e3h85UnMPx47Nffz6dnJy8uZVAy3QqUUJLjX7++o3j4+OOJfzX4xs3rj9s+W+pFKPWQbhZyU/4f69WeD9lI5A6AAAAAElFTkSuQmCC" alt="" class="imgOracle">
+                </td>
+                <td>
+                    <img src="https://4.bp.blogspot.com/-cSRif2Hy-No/U-vU2kvfTiI/AAAAAAAAG8E/EAAPAphQvwo/a400/chrome_ico.png" alt="" class="imgGoogle">
+                </td>
+                <td>
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/openai-1524384-1290687.png" alt="" class="imgOpenIA">
+                </td>
+                <td>
+                    <img src="https://avatars.githubusercontent.com/u/24322821?s=280&v=4" alt="" class="imgIbm">
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="Aboutme_principal">
+        <div class="aboutme_principal"></div>
+            <div class="immg_aboutme"">
+                <img src="./rcs/me.png" alt="">
+            </div>
+            <div class="contenido_aboutme">
+                <h1 class="resumentitulo">About me</h1>
+            <p class="resumenAboutme">
+                <B> Hola Usuario, mi nombre es Jose Guzmán, me encuentro estudiando Ingeniería Informática en una de las mejores universidades de Colombia, Universidad de la Sabana. Tengo 18 años y me apasiona la tecnología, las ciencias y la carrera espacial. </B>
+            </p>
+            </div>               
+        </div>
+    </section>
+<!--carrusel automatico-->
+
+    <div id="carrusel-contenido">
+        <div id="carrusel-caja">
+            <div class="carrusel-elemento">
+                <img class="imagenes" src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" >
+            </div>
+            <div class="carrusel-elemento">   
+                <img class="imagenes" src="https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            </div>
+            <div class="carrusel-elemento">   
+                <img class="imagenes" src="https://images.pexels.com/photos/13228797/pexels-photo-13228797.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">                        
+            </div>
+        </div>
+    </div>
+<!--Fin carrusel automatico-->
+
+<footer>
+    <div class="contenedor footer-content">
+        <div class="contact-us">
+            <h2 class="brand">Héctor Jose Guzman Montaño</h2>
+            <p>
+                Universidad de la Sabana - Colombia <br>
+                cel +57 3052951490 <br>
+                hectorgumo@unisabana.edu.co <br>
+            </p>
+        </div>
+        <div class="social-media">
+            <a href="./" class="social-media-icon">
+                <i class='bx bxl-facebook-circle'></i>
+            </a>
+            <a href="./" class="social-media-icon">
+                <i class='bx bxl-instagram-alt' ></i>
+            </a>
+        </div>
+    </div>
+    
+</footer>
+
+    <script src="./jss/main.js"></script>
+</body>
+</html>

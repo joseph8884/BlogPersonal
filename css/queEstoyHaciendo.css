@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+:root{
+    --colorsection:#ffffffac;
+}
+body{
+    background-color: rgb(4, 4, 100);
+    font-family:'Alice';
+}
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+#queEstoyHaciendo{
+    background-color:var(--colorsection);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+    padding: 3%;
+    margin: 2% 20% 0%; 
+    z-index: -2;
+}
+.texto_queEstoyHaciendo{
+    padding: 5%;
+}
+.texto_queEstoyHaciendo h1{
+    color: blue;
+    font-size: 320%;
+    padding: 10%;
+}
+.texto_queEstoyHaciendo p{
+    font-size: 140%;
+    line-height: 40px;
+    text-align: left;
+}
+.imagenCode p{
+    font-size: 240%;
+    padding: 1% 20%;
+}
+a{
+    cursor: pointer;
+}
+.imagenCode img{
+    width: 50%;
+    height: 50vh;
+    border-radius: 100% 100% 100% 100%;
+}
